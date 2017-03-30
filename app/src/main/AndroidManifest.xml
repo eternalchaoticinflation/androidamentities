@@ -8,6 +8,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -15,6 +16,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
         <activity android:name=".NearPrinterActivity">
             <intent-filter>
                 <action android:name="com.example.nothi.androidamenities.NearPrinterActivity" />
@@ -22,6 +24,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <activity android:name=".NearMaleWashroomActivity">
             <intent-filter>
                 <action android:name="com.example.nothi.androidamenities.NearMaleWashroomActivity" />
@@ -29,6 +32,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <activity android:name=".NearFemaleWashroomActivity">
             <intent-filter>
                 <action android:name="com.example.nothi.androidamenities.NearFemaleWashroomActivity" />
@@ -36,6 +40,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <activity android:name=".NearMicrowave">
             <intent-filter>
                 <action android:name="com.example.nothi.androidamenities.NearMicrowave" />
@@ -43,6 +48,7 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <activity android:name=".NearVendingActivity">
             <intent-filter>
                 <action android:name="com.example.nothi.androidamenities.NearVendingActivity" />
@@ -50,17 +56,31 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+
         <activity android:name=".NearestinCommons">
             <intent-filter>
                 <action android:name="com.example.nothi.androidamenities.NearestinCommons" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-
-
         </activity>
 
+        <activity android:name=".NearestinBusiness">
+            <intent-filter>
+                <action android:name="com.example.nothi.androidamenities.NearestinBusiness" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".NearestinTech">
+            <intent-filter>
+                <action android:name="com.example.nothi.androidamenities.NearestinTech" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+        </activity>
     </application>
 
 </manifest>

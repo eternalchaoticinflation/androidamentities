@@ -8,14 +8,20 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.nothi.androidamenities.NearPrinterActivity">
+    android:background="@android:color/holo_blue_light"
+
+    tools:context="com.example.nothi.androidamenities.NearPrinterActivity"
+
+    >
 
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true">
+        android:layout_alignParentStart="true"
+
+        >
 
         <EditText
             android:layout_width="match_parent"
@@ -35,19 +41,22 @@
             android:text="Commons"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/wc" />
+            android:id="@+id/wc"
+            android:background="@android:color/holo_green_light" />
 
         <Button
             android:text="Bussiness Building"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/wb" />
+            android:id="@+id/wb"
+            android:background="@color/colorPrimaryDark" />
 
         <Button
             android:text="Technology"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/wt" />
+            android:id="@+id/wt"
+            android:background="@android:color/holo_purple" />
 
     </LinearLayout>
 </RelativeLayout>
